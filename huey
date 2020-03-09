@@ -1,0 +1,63 @@
+
+BLACK='\033[1;30m'
+BROWN='\033[0;33m'
+LBRWN='\033[1;36m'
+YLW='\033[1;35m'
+PURP='\033[1;32m'
+BLUE='\033[1;34m'
+NC='\033[0m'
+bold=$(tput bold)
+norm=$(tput sgr0)
+
+
+echo -e "${bold}${BLACK}                                                     :yhdmNNMNmd:     \`..\`                          "
+echo -e "${bold}${BLACK}                                            .+o\`  \`sNMMMMMMMMMMNyyhdmNNNNs\`                         "
+echo -e "${bold}${BLACK}                               \`-:/      -odNNd//sNMMMMMMMMMMMMMMMMMMMMMMMNNNNmy-+o.                "
+echo -e "${bold}${BLACK}                            -sdNNN/\`.:+ymNNMMMMNNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNoyNy-              "
+echo -e "${bold}${BLACK}                          .yNMMMMMNNNNNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNmMMNs\`            "
+echo -e "${bold}${BLACK}                        \`oNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMm+    -      "
+echo -e "${bold}${BLACK}                      .+dNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNh-:hNy.    "
+echo -e "${bold}${BLACK}          \`------:/+ydNNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNNMMMm:   "
+echo -e "${bold}${BLACK}           :hNNNNNNNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNo  "
+echo -e "${bold}${BLACK}            \`-ohmNNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM/ "
+echo -e "${bold}${BLACK}                \`/hNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMm. "
+echo -e "${bold}${BLACK}              .odNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMN/  "
+echo -e "${bold}${BLACK}            .smNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMy   "
+echo -e "${bold}${BLACK}        \`\`.omMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMN.   "
+echo -e "${bold}${BLACK}   \`-+ydmmmNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMd    "
+echo -e "${bold}${BLACK}./ymNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMN+   "
+echo -e "${bold}${BLACK} \`:omMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNy- "
+echo -e "${bold}${BLACK}   -yNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNo"
+echo -e "${bold}${BLACK}    .:+ydNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNNN${BROWN}mm${BLACK}NMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMh-"
+echo -e "${bold}${BLACK}        \`-+hNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNN${BROWN}mmdhhyssssooosd${BLACK}MMMMMMMMMMMMMMMMMMMMMMMMMMMMd/\` "
+echo -e "${bold}${BLACK}           \`-yNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMN${BROWN}mdhyssoooooooooooooood${BLACK}MMMMMMMMMMMMMMMMMMMMMMMMMMM/   "
+echo -e "${bold}${BLACK}              -hNMMMMMMMMMMMMMMMMMMMMMMMMMN${BROWN}dhssoooooooooooooooooooooo${BLACK}NMMMMMMMMMMMMMMMMMMMMMMMMMM+   "
+echo -e "${bold}${BLACK}               \`+NMMMMMMMMMMMMMMMMMMMMMN${BROWN}dysooooooooooooooooooooooooooh${BLACK}MMMMMMMMMMMMMMMMMMMMMMMMMh\`   "
+echo -e "${bold}${BLACK}           \`:sysosNMMMMMMMMMMMMMMMMMMN${BROWN}hoooooooooooooooooooooooooooooos${BLACK}MMMMMMMMMMMMMMMMMMMMMMMMMo-\`  "
+echo -e "${bold}${BLACK}          .yNMMMMMMMMMMMMMMMMMMMMMMM${BROWN}msooooooooooooooooooooooooooooooood${BLACK}MMMMMMMMMMMMMMMMMMMMMMMMMm/  "
+echo -e "${bold}${BLACK}           \`-odNMMMMMMMMMMMMMMMMMMMN${BROWN}oooooooooooooooooo${LBRWN}s${BROWN}ooooooooooooooood${BLACK}MMMMMMMMMMMMMMMMMMMMMMMN/   "
+echo -e "${bold}${BLACK}              \`/dMMMMMMMMMMMMMMMMMM${BROWN}hoooooooooooooooooo${LBRWN}s${BROWN}ooooooooo${BLACK}sdddhh${BROWN}ssd${BLACK}MMMMM${BROWN}dyym${BLACK}MMMMMMMMMMMMMy    "
+echo -e "${bold}${BLACK}                \`yMMMMMMMMMMMMMMMMM${BROWN}hoooooooooo${LBRWN}s${BROWN}ooooooo${LBRWN}s${BROWN}oooooooo${BLACK}ydhss${BROWN}oooood${BLACK}MMM${BROWN}mmhhy${BLACK}MMMMMMMMMMMMMy    "
+echo -e "${bold}${BLACK}                 \`mMMMMMMMMMMMMMMMM${BROWN}mooooooooooo${LBRWN}s${BROWN}oooooo${LBRWN}s${BROWN}ooooo${BLACK}shdy${BROWN}ooooooooos${BLACK}NMMN${BROWN}dddh${BLACK}NMMMMMMMMMMMMy    "
+echo -e "${bold}${BLACK}                  oMMMMMMMMMMMMMMMMN${BROWN}sooooooooooo${LBRWN}s${BROWN}ooooo${LBRWN}s${BROWN}oo${BLACK}sydm${BROWN}dssysyhhhyoood${BLACK}MMM${BROWN}dddd${BLACK}NMMMMMMMMNhNN/    "
+echo -e "${bold}${BLACK}                  \`hMMMMMMMMMMMMMMMM${BROWN}dooo${BLACK}mdys${BROWN}oooooo${LBRWN}s${BROWN}o${LBRWN}s${BROWN}o${BLACK}sydm${BROWN}Nmmm${NC}dd/${BLACK}/${NC}dM${BLACK}Nm${BROWN}sooo${BLACK}yM${BROWN}mddddm${BLACK}MMMMMMMMMh ::     "
+echo -e "${bold}${BLACK}                   \`+ydNMMMMMMMMMMMMM${BROWN}ho${BLACK}hh${BROWN}o${BLACK}syhyhhd${BROWN}dmhoo${BLACK}syd${BROWN}dh${NC}hho:/+${BLACK}ym${NC}d${BLACK}yooo${BROWN}oooddddd${BLACK}NMMMMMMMMMm-        "
+echo -e "${bold}${BLACK}                      -mMMMMMMMMMMMMMM${BROWN}h${BLACK}y${BROWN}oooosyhy${BLACK}hmNd${BROWN}yooossoo+${NC}/:/+o${BLACK}ooo${BROWN}oooooodddd${BLACK}NMMMMMMMMMN/         "
+echo -e "${bold}${BLACK}                      /dmmmNMMMMMMMMMMM${BROWN}mso${NC}sdy${BLACK}sy${NC}/o${BLACK}N${BROWN}Ndooooooooooooooooooooooydddd${BLACK}MMMMMMMMMMN/         "
+echo -e "${bold}${BLACK}                        \`\` :mMMMMMMMMMMM${BROWN}m${NC}syho/${BLACK}:s${NC}${BLACK}yh${BROWN}yooooooooooooooooooooooodmmm${BLACK}NMMMMMMMMMm/          "
+echo -e "${bold}${BLACK}                            -hMMMMMMMMMMM${BROWN}moooooooooooooooooooooooooooooood${BLACK}MMMMMMMMMMNmh+.           "
+echo -e "${bold}${BLACK}                           \`hMMMMMMMMMMMMM${BROWN}doooooooooooosy${LBRWN}hh${BROWN}oooooooooooood${BLACK}NMMMMMMMNNm+\`              "
+echo -e "${bold}${BLACK}                            -/++yMMMMMMMMMM${BROWN}dsoooooooos${LBRWN}yyyy${BROWN}oooooooooooosd${BLACK}mMMMMNNs/:.\`                "
+echo -e "${bold}${BLACK}                               \`mNNmmNMMMMMMN${BROWN}hsoooooooooooooooooooooy${YLW}ddd${PURP}mNmm:.\`                    "
+echo -e "${bold}${BLACK}                               \`+:.\`\`:sddddddm${BROWN}Nmhsooooooo${YLW}====${BROWN}ooooos${YLW}ydddddd${PURP}mmmo\`                     "
+echo -e "${bold}${BLACK}                                             \`:dMM${BROWN}mdysooooooosyh${YLW}ddddddd${PURP}mmmmmy\`                    "
+echo -e "${bold}${BLACK}                                               \`os+${BROWN}:---::::::o${YLW}ddddddddd${PURP}mmmmmmmms\`                   "
+echo -e "${bold}${BLACK}                                                          ${PURP}\`+hmmm${YLW}dddddd${PURP}ddddmmmmmmh.                  "
+echo -e "${bold}${BLACK}                                                        ${PURP}\`+ydm${NC}mmmmdddh${PURP}yyyyyyhhdhhhy+-                "
+echo -e "${bold}${BLACK}                                                      ${PURP}\`+yyyy${NC}dmmdddh${PURP}yyyyyyyyhhyyyyyyys-              "
+echo -e "${bold}${BLACK}                                                     ${PURP}-hhyyyy${NC}dmhyhmmh${PURP}yyyyyyhhyyyyyyyyyhs.            "
+echo -e "${bold}${BLACK}                                                     ${PURP}smmhyyh${NC}ms/${PURP}oymmdyyyyyydyyyyyyyyhhhyy/           "
+echo -e "${bold}${BLACK}                                                    ${PURP}\`dmmm${NC}yydo:${PURP}/ohdmmyyyyyyhyyyyhhyyyyyyhho\`         "
+echo -e "${bold}${BLACK}                                                    ${PURP}/mmmm${NC}hdy:.:${PURP}/hhmmhyyyyhyyyyhyyyyyyyyyyys         "
+echo -e "${bold}${BLACK}                                                   ${PURP}-mmmm${NC}hhds/..${PURP}oyhdmmhyyhhyyyhyyyyyyyyyyyyh/        "
+echo -e "${bold}${BLACK}                                                  ${PURP}\`o+:oyyy${NC}hso.+${PURP}yyyyyhhhhhyyyhyyyyyyyyyyyyyyy\`       ${NC}${norm}"
